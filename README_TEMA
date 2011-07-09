@@ -1,0 +1,18 @@
+Grijincu Silviu
+334 CB
+Tema 2 PA
+
+Tema va fi verificata cu oponentul la Level 2 (dificultate maxima)
+
+
+Am folosit un algoritm de alpha beta pruning care ajunge
+pana la adancimea 5.
+
+Evaluarea starii matricii consta in alocarea unor puncte.
+In cazul in care am mai putin de 2 chip-uri unul dupa altul
+aloc 0 puncte; pentru 2 chip-uri alaturate returnez 10 * numarul de spatii
+din preajma; daca am 3 chip-uri alaturate returnez 100 * numarul de spatii.
+Am luat in seama numarul de spatii, pentru ca a avea 3 chip-uri in linie 
+in coltul din dreapta jos si restul liniei ocupate cu chip-uri de-ale oponentului
+nu are rost sa returnez 100, ci 0.
+
